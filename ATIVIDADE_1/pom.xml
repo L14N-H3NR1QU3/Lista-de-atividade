@@ -11,4 +11,5 @@
         <maven.compiler.target>22</maven.compiler.target>
         <exec.mainClass>com.mycompany.atividade_1.ATIVIDADE_1</exec.mainClass>
     </properties>
+    <name>ATIVIDADE_1</name>
 </project>

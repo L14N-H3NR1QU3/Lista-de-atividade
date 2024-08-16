@@ -19,7 +19,6 @@ public class ATIVIDADE_4 {
         while(chances != 3 && pass != 1){
             System.out.print("Digite o nome: ");
             String nome = ler.next();
-            System.out.println(nome);
             System.out.print("Digite a senha: ");
             int senha = ler.nextInt();
             if(nome.equals(nomeCad)  && senha == senhaCad){

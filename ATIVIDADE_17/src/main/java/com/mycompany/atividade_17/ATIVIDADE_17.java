@@ -15,12 +15,12 @@ public class ATIVIDADE_17 {
         Scanner ler = new Scanner (System.in);
         System.out.println("Digite uma palavra: ");
         String resp = ler.next();
+        System.out.println(resp);
         String aeiou = "aeiou";
         String AEIOU = "AEIOU";
-        char comp;
         int cont = 0;
         for(int i = 0; i < resp.length(); i++){
-            comp = resp.charAt(i);
+            char comp = resp.charAt(i);
             for(int j = 0; j < aeiou.length(); j++){
                 if(comp == aeiou.charAt(j) || comp == AEIOU.charAt(j)){
                     cont += 1;
